@@ -1,0 +1,323 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+.m_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.center_heading {
+    width: calc(100% - 833px);
+    float: left;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.center_heading .center_heading_content {
+    width: calc(100% - 137px);
+}
+
+
+.center_heading h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.center_heading p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.left_heading {
+    width: calc(100% - 446px);
+}
+
+.left_heading .left_heading_content {
+    width: calc(100% - 147px);
+}
+
+.left_heading h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.left_heading p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* Styles For DOWNLOAD SECTION */
+
+.download_section {
+    width: 100%;
+    min-height: 400px;
+    background-color: #252B42;
+    float: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download_buttons ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.download_buttons ul a {
+    width: 240px;
+    height: 82px;
+    margin: 10px;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.download_buttons ul a li i {
+    font-size: 38px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 28px;
+    position: absolute;
+}
+
+.download_buttons ul a li p {
+    font-size: 14px;
+    margin-top: 18px;
+    margin-left: 86px;
+    position: absolute;
+}
+
+.download_buttons ul a li span {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 86px;
+    position: absolute;
+}
+
+
+/* Styles for PRICING SECTION */
+
+.pricing_section {
+    width: 100%;
+    min-height: 765px;
+    background-color: #252B42;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: calc(100% - 390px);
+    margin-top: 96px;
+}
+
+.plan .plan_option {
+    width: 510px;
+    min-height: 243px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.plan .plan_option .plan_option_content {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+
+.plan .plan_option .plan_option_content .name {
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.plan .plan_option .plan_option_content .description {
+    width: 217px;
+    font-weight: 700;
+    font-size: 24px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #737373;
+}
+
+.price .price_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.price .price_info .amount {
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.price .price_info .currency {
+    font-weight: 700;
+    font-size: 16px;
+    color: #23A6F0;
+}
+
+.price .price_info .period {
+    color: #8EC2F2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.price .btn button {
+    margin-top: 19px;
+    background: #23A6F0;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    background: #23A6F0;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 40px;
+    white-space: nowrap;
+}
+
+/* Styles for BOOK SECTION */
+.book_section {
+    width: 100%;
+    min-height: 800px;
+    background-color: #252B42;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book_section .section_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 392px);
+}
+
+.map {
+    width: calc(100% - 602px);
+}
+
+.book_form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 900px;
+    width: 877px;
+    height: 610px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.book_form .book_form_content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book_form .book_form_content h1 {
+    color: #252B42;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.placeholder {
+    width: 100%;
+    min-height: 416px;
+    background-color: #fafafa;
+}
+
+/* Styles for FOOTER SECTION */
+
+.m_footer {
+    width: 100%;
+    height: 338px;
+    background-color: #252B42;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_content {
+    width: calc(100% - 394px);
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer_content .footer_element {
+    display: inline-block;
+}
+
+.footer_content .footer_element h3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.footer_content .footer_element ul {
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.footer_content .footer_element ul li {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/* Styles for COPYRIGHT SECTION */
+.m_copyright {
+    width: 100%;
+    min-height: 76px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m_copyright p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #737373;
+}
